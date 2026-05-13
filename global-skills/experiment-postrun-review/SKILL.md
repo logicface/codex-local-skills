@@ -15,8 +15,10 @@ After each experiment run:
 2. read the result artifacts
 3. classify outcome signals
 4. audit the config and current code/worktree for major risks
-5. update a compact handoff file if the project uses one
-6. stage, commit, and optionally push the right artifacts
+5. decide whether the next step is only a sanity check or a real improvement decision
+6. if it is a real improvement decision, route through current literature before proposing the next change
+7. update a compact handoff file if the project uses one
+8. stage, commit, and optionally push the right artifacts
 
 ## Core rules
 
@@ -25,6 +27,8 @@ After each experiment run:
 - Distinguish success signals, failure signals, and unresolved risks.
 - Treat dirty worktree state as a first-class experimental risk.
 - Do not auto-stage unrelated files blindly; use explicit path rules or guarded heuristics.
+- Do not let the next-step recommendation collapse into generic hyperparameter tuning when the user is really asking for a stronger method direction.
+- For genuine improvement planning, hand off to `experiment-next-step-planner` and use current literature retrieval before recommending a new method change.
 
 ## Minimum artifacts to inspect
 
@@ -40,7 +44,7 @@ After each experiment run:
 - compact analysis markdown
 - likely causes of success, failure, or mixed outcome
 - contract/code-risk audit
-- next-step recommendation
+- next-step recommendation, labeled as either `sanity-check` or `literature-backed improvement`
 - optional handoff update for cross-thread continuity
 
 ## Git rules
@@ -53,4 +57,3 @@ After each experiment run:
 ## References
 
 - Read `references/checklist.md` for the postrun checklist and risk heuristics.
-

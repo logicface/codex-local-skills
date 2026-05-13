@@ -32,8 +32,21 @@ Score candidate next experiments against:
 - `baseline value`: does it strengthen the baseline ladder
 - `confounding risk`: how many variables move at once
 - `publication value`: does it matter if it works
+- `literature support`: is there recent primary-source support for this mechanism or design move
 
 Prefer high discriminative power and low confounding first.
+
+## 3a. Literature-backed improvement rule
+
+When the next step is a genuine method improvement rather than a pure sanity check:
+
+- search recent primary sources before recommending the change
+- report the search date explicitly
+- prefer mechanism-level ideas over copying a paper's headline gain
+- reject ideas that require unavailable labels, modalities, or infrastructure
+- distinguish `paper-inspired`, `paper-supported`, and `paper-reproduced`
+
+Do not present a tuning sweep as a research direction unless the literature itself makes calibration or optimization the substantive contribution.
 
 ## 4. Next-step menu by failure signature
 
@@ -70,6 +83,15 @@ Prefer:
 - narrow the diff
 - rerun only after the experimental surface is controlled
 
+### Stable baseline but no meaningful gain
+
+Prefer:
+
+- retrieve the latest directly relevant papers and filter for ideas that fit the current data and metrics
+- identify whether recent gains come from architecture, objective, calibration, missingness handling, or data protocol changes
+- choose one locally executable mechanism-level modification rather than a broad sweep
+- make the first literature-backed run a narrow ablation, not a full redesign
+
 ## 5. Output template
 
 Use this compact shape when the user wants a direct plan:
@@ -77,7 +99,8 @@ Use this compact shape when the user wants a direct plan:
 1. `Current verdict`
 2. `Why this verdict`
 3. `Most likely cause class`
-4. `Next experiment A` and why it is first
-5. `Next experiment B`
-6. `Next experiment C`
-7. `Stop or rollback trigger`
+4. `Recent literature signals`
+5. `Next experiment A` and why it is first
+6. `Next experiment B`
+7. `Next experiment C`
+8. `Stop or rollback trigger`
