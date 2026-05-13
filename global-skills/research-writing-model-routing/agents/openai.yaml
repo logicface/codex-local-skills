@@ -1,0 +1,7 @@
+interface:
+  display_name: "Research Writing Model Routing"
+  short_description: "Choose the right model and workflow for paper writing tasks."
+  default_prompt: "Use $research-writing-model-routing to choose the right model and workflow for this writing task."
+
+policy:
+  allow_implicit_invocation: true

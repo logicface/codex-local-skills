@@ -1,0 +1,7 @@
+interface:
+  display_name: "Experiment Postrun Review"
+  short_description: "Automatically close out completed experiments with analysis, audit, and git publishing."
+  default_prompt: "Use $experiment-postrun-review to wire this project so completed runs are analyzed, audited, and published automatically."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Universal Literature Search"
+  short_description: "Cross-disciplinary academic literature retrieval and evidence mapping."
+  default_prompt: "Use $universal-literature-search to find and synthesize academic sources on a topic."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Writing Polish"
+  short_description: "Polish English or Chinese academic prose without over-editing."
+  default_prompt: "Use $research-writing-polish to make this paper paragraph publication-ready while preserving its meaning."
+
+policy:
+  allow_implicit_invocation: true
+

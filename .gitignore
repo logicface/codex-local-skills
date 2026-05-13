@@ -1,0 +1,12 @@
+# OS noise
+Thumbs.db
+Desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor noise
+.vscode/
+.idea/

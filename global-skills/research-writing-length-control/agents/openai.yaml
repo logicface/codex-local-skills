@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Writing Length Control"
+  short_description: "Slightly shorten or expand academic text without changing meaning."
+  default_prompt: "Use $research-writing-length-control to shorten or expand this paper paragraph while preserving all technical content."
+
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Writing Experiment Analysis"
+  short_description: "Turn metrics and tables into paper-ready experimental analysis."
+  default_prompt: "Use $research-writing-experiment-analysis to write a clean experimental analysis paragraph from these results."
+
+policy:
+  allow_implicit_invocation: true
+

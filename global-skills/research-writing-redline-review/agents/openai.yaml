@@ -1,0 +1,7 @@
+interface:
+  display_name: "Research Writing Redline Review"
+  short_description: "High-threshold logic and reviewer-lens review for papers."
+  default_prompt: "Use $research-writing-redline-review to review this section and report only substantive issues."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "ML Experiment Loop"
+  short_description: "Run a disciplined ML workflow from data checks to result analysis."
+  default_prompt: "Use $ml-experiment-loop to turn an ML task into a reproducible experiment with baselines and analysis."
+
+policy:
+  allow_implicit_invocation: true

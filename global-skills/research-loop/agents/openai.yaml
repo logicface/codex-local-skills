@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Loop"
+  short_description: "Turn literature into a scoped experiment and analyze the result."
+  default_prompt: "Use $research-loop to turn a research question into a scoped experiment and next-step decision."
+
+policy:
+  allow_implicit_invocation: true
+

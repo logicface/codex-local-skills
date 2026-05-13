@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Writing Visuals"
+  short_description: "Plan paper figures, plot choices, and figure or table titles."
+  default_prompt: "Use $research-writing-visuals to recommend the right paper figure or chart and write a concise title."
+
+policy:
+  allow_implicit_invocation: true
+

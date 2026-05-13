@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Writing Humanize"
+  short_description: "Reduce AI-sounding or translation-sounding academic prose."
+  default_prompt: "Use $research-writing-humanize to make this academic text sound more natural without changing the claims."
+
+policy:
+  allow_implicit_invocation: true
+

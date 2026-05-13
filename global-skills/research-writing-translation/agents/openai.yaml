@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Writing Translation"
+  short_description: "Translate and rewrite academic prose across Chinese and English."
+  default_prompt: "Use $research-writing-translation to translate or rewrite a paper paragraph while preserving technical meaning."
+
+policy:
+  allow_implicit_invocation: true
+
