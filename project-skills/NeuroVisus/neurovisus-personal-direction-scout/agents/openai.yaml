@@ -1,0 +1,7 @@
+interface:
+  display_name: "NeuroVisus Personal Direction Scout"
+  short_description: "Map the lab direction and repo into ranked personal research lines."
+  default_prompt: "Use $neurovisus-personal-direction-scout to propose personal research directions from this NeuroVisus repo."
+
+policy:
+  allow_implicit_invocation: true

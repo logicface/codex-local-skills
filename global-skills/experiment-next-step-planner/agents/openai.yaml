@@ -1,0 +1,7 @@
+interface:
+  display_name: "Experiment Next-Step Planner"
+  short_description: "Turn completed runs into a ranked next experiment plan."
+  default_prompt: "Use $experiment-next-step-planner to analyze these results and decide the next experiment."
+
+policy:
+  allow_implicit_invocation: true
